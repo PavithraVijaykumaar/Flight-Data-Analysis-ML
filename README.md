@@ -1,4 +1,4 @@
-# Flight-Data-EDA
+# Flight Data - Exploratory Data Analysis and Machine Learning Model
 This project involves conducting Exploratory Data Analysis on flight journey details. It encompasses analyzing various parameters and visualizing the data. Additionally, a machine learning model is constructed using the Naive Bayes method to predict the arrival status of the flight (on-time or late).
 
 In PART 1 of this project, an Exploratory Data Analysis will be conducted on the provided dataset to analyze various features (columns). Various methods will be used to interpret their relation, and they will be visualized.
@@ -17,7 +17,7 @@ The data consists of 10 features (columns) namely
 - Day_of_the_Month
 - Day of the Week
 
-To view the dataset, click [Dataset](Flight Data.csv)
+To view the dataset, click [Dataset](Flight-Data.csv)
 
 Each number represents the corresponding day
 
