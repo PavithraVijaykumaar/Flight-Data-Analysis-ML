@@ -94,8 +94,7 @@ Data visualization is the graphical representation of data and information. It u
 
 ### Model Classification and Fitting
 
-For building a ML model for prediction of the emotion, certain libraries are imported and used for training the existing dataset and build a model predicting the emotion displayed by the text messages.
-Various Machine Learning algorithms are used to train a model to give a prediction based on the available datas. Many functions and libraries are used for precise prediction of data. Various algorithms are used for predicting the desired parameters. One such method used in this system is the Naive Bayes Probabilty theorem for predicting values
+For creating an ML model to predict emotions, several libraries are imported and utilized to train the existing dataset. Various Machine Learning algorithms are employed to build a model that can provide predictions based on the available data. The system incorporates multiple functions and libraries to ensure accurate and precise predictions. Among the algorithms used for predicting the desired parameters, one notable method is the Naive Bayes Probability theorem.
 
 Naive bayes can be classified into three types namely
 
@@ -111,11 +110,11 @@ Naive bayes can be classified into three types namely
       from sklearn.metrics import confusion_matrix , plot_confusion_matrix
       from sklearn.metrics import accuracy_score,precision_score,recall_score
 
-- LabelEncoder for converting categorical labels into numerical format, commonly used for transforming target labels in machine learning tasks.
-- GaussianNB for implementing Gaussian Naive Bayes algorithm, a probabilistic classifier for classification tasks based on Bayes' theorem.
-- Train test split for splitting datasets into training and testing subsets, essential for evaluating machine learning models.
+- LabelEncoder for converting `categorical` labels into `numerical` format, commonly used for transforming target labels in machine learning tasks.
+- GaussianNB for implementing Gaussian Naive Bayes algorithm, a probabilistic classifier for classification tasks based on `Bayes' theorem`.
+- Train test split for `splitting` datasets into `training` and `testing` subsets, essential for `evaluating` machine learning models.
 - Confusion Matrix to compute a confusion matrix, showing the performance of a classification model by comparing predicted and true labels.
-- Plot confusion matrix for plotting a confusion matrix, offering a visual representation of model classification performance.
+- Plot confusion matrix for `plotting` a `confusion matrix`, offering a `visual representation of model classification performance`.
 - Accuracy Score for calculating the accuracy score, a metric that measures the ratio of correctly predicted samples to the total number of samples.
 - Precision score for calculating the precision score, a metric that measures the ability of the model to correctly predict positive samples.
 - Recall score for calculating the recall score, a metric that measures the ability of the model to correctly identify positive samples.
@@ -138,6 +137,6 @@ The confusion matrix has four key elements:
  3. False Positives (FP): The number of instances that are incorrectly predicted as positive by the model. These are the cases where the model predicted the positive class, but the actual class is negative.
  4. False Negatives (FN): The number of instances that are incorrectly predicted as negative by the model. These are the cases where the model predicted the negative class, but the actual class is positive.
 
- 5. For viewing the jupyter notebook code, click [Flight Data EDA](FLIGHT-DATA-EDA.ipynb)
- 6. 
- 7. For viewing raw python code, click [Flight Data EDA](FLIGHT-DATA-EDA.py)
+For viewing the jupyter notebook code, click [Flight Data EDA](FLIGHT-DATA-EDA.ipynb)
+
+For viewing raw python code, click [Flight Data EDA](FLIGHT-DATA-EDA.py)
